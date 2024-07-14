@@ -18,7 +18,7 @@ Este proyecto utiliza OpenCV, YOLO (You Only Look Once) y `pyttsx3` para detecta
 1. Clona el repositorio:
     ```bash
     git clone https://github.com/maxbot86/yoloBlind.git
-    cd tu_repositorio
+    cd yoloBlind
     ```
 
 2. Instala las dependencias:
@@ -27,7 +27,7 @@ Este proyecto utiliza OpenCV, YOLO (You Only Look Once) y `pyttsx3` para detecta
     ```
 
 3. Descarga los archivos de configuración y pesos de YOLOv3 y colócalos en el directorio del proyecto:
-    - `yolov3.weights`
+    - `yolov3.weights` (se debera descargar de internet)
     - `yolov3.cfg`
     - `cocoES.names` (archivo con los nombres de las clases en español)
 
@@ -58,7 +58,7 @@ El script `main.py` realiza los siguientes pasos:
 
 3. **Carga de YOLO**:
     - Se cargan los pesos y configuraciones de YOLOv3.
-    - Se cargan los nombres de las clases desde el archivo `cocoES.names`.
+    - Se cargan los nombres de las clases desde el archivo `cocoES.names`.( se puede usar `cocoEN.names` si lo desea en ingles)
 
 4. **Selección de la Cámara**:
     - El usuario selecciona la cámara a utilizar.
